@@ -17,7 +17,7 @@
 //     }, 50);
 //   });
 // })();
-import { animate, scrambleText } from "https://cdn.jsdelivr.net/npm/animejs@4/+esm";
+import { animate, scrambleText } from "animejs";
 export function initScoreAnim() {
   let btn = document.querySelector(".primary-button");
   let scoreEl = document.querySelector("[data-score]");
